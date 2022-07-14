@@ -66,7 +66,6 @@ position: relative;
 
 
 
-
 @media only screen and (max-width:1366px) {
   .mango-logo {
     width: 200px;
@@ -91,10 +90,186 @@ border-radius: 50%;
 
   .bg-image{
     /* max-width: 100%; */
-    height: calc(100vh - 82px);
+    /* height: calc(100vh - 82px); */
   }
 
-  .bg-slider img{
+  .bg-slider {
+    background-image: url('./assets/image/Rectangle 43.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100vh - 82px);
+    position: relative;
+    width: 100%;
+  }
+
+   .bg-slider img{
     width: 100%;
     max-height: calc(100vh - 90px);
+    
   }
+  .slider-overlay{
+    position: absolute;
+    top: 19%;
+    left: 3%;
+    max-height: 50vh;
+  }
+  .slogan-container {
+    position: relative;
+    padding: 43px 59px 57px 50px;
+    border-radius: 10px;
+  }
+
+  .slogan-container::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #ffffff;
+    opacity: 0.74;
+    border-radius: 10px;
+  }
+
+  .slogan {
+    position: relative;
+    font-family: Oswald;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 109px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .slogan-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .slogan-img img {
+    position: relative;
+    width: 166px;
+    height: 89px;
+    border-radius: 8px;
+    background-color: #000000;
+    opacity: 1;
+    margin-right: 18px;
+  }
+
+
+  .services-container {
+    display: flex;
+  }
+
+  .services {
+    display: flex;
+    margin-top: 25px;
+    margin-right: 25px;
+    position: relative;
+    max-width: 238px;
+    border-radius: 9.5px;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .services:last-child {
+    margin-right: 0px;
+  }
+  
+  .services img {
+    position: relative;
+    height: 34px;
+    width: 34px;
+    margin: 10px;
+  }
+
+  .services div {
+    padding-left: 38px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  @media only screen and (max-width:1199px) {
+    .slogan{
+      font-size: 30px;
+      line-height: 50px;
+      padding: 0;
+    }
+    .slider-overlay{
+      /* width: 50%; */
+      padding: 2px 0px 0px 2px;
+    }
+    .slogan-container{
+    /* margin-right: 69px; */
+    padding: 15px 44px 15px 46px;
+
+    }
+    .services div {
+      font-size: 10px;
+         padding-left: 18px; 
+     padding-top: 8px;
+     padding-bottom: 8px;
+    }
+    }
+
+    .carousel-control-prev , .carousel-control-next{
+      display: none !important;
+    }
+    .carousel-indicators .active{
+      background-color: #CB6632 !important;
+    }
+    .carousel-indicators [data-bs-target] {
+      opacity: 1 !important;
+      width: 50px !important;
+    }
+  
+    .carousel-indicators {
+      bottom: 20px !important;
+      
+    }
+  
+    .slider-main{
+      position: relative;
+    }
+    .slider-content{
+      position: absolute;
+      top: 15%;
+      left: 5%;
+      border: 2px soid red;
+      z-index: 999;
+    }
+    .slider-slogan{
+      background-color: #ffffff;
+      opacity: 0.74;
+      padding: 43px 59px 57px 50px;
+      border-radius: 10px;
+    }
+ .slogan-text {
+      
+      font-family: Oswald;
+      font-size: 86px;
+      font-weight: 700;
+      line-height: 109px;
+      letter-spacing: 0px;
+      text-align: left;
+      text-transform: uppercase;
+      color: #000000;
+      opacity: 1;
+      z-index: 1  ;
+    }
+
+.slider-services{
+  display :flex
+}
+    
