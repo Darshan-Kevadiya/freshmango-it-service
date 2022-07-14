@@ -1,7 +1,6 @@
-import React, { Component, useState } from 'react'
+import React, {useState } from 'react'
 import { Form, Button, Card, Alert } from "react-bootstrap"
 import { Link, useNavigate } from 'react-router-dom';
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { useUserAuth } from '../context/UserAuthContext';
 
 const SignUp = () => {
@@ -45,10 +44,6 @@ const SignUp = () => {
               <Form.Label>Password</Form.Label>
               <Form.Control type="password" name="password" onChange={handleChangepassword} required />
             </Form.Group>
-            {/* <Form.Group id="confirm_password">
-            <Form.Label>Confirm Password</Form.Label>
-            <Form.Control type="password" name="confirm_password" onChange={this.handleChange} required/>
-          </Form.Group> */}
             <Button className="w-100 mt-4" type="submit">
               Sign Up
             </Button>

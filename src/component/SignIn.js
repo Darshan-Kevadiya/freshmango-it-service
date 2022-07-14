@@ -1,6 +1,6 @@
-import React, { Component, useState } from 'react'
+import React, {useState } from 'react'
 import { Form, Button, Card, Alert } from "react-bootstrap"
-import { BrowserRouter, Router ,Route , Link, useNavigate} from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 import { useUserAuth } from '../context/UserAuthContext';
 
 const SignIn = () => {
@@ -24,9 +24,6 @@ const SignIn = () => {
     try {
       await signin(email, password);
       navigate('/dashboard')
-      localStorage.setItem('islogin','true')
-      // const user = userCredential.user;
-      //   console.log("Singed in user: ", user);
     } catch (error) {
       seterror(error.message);
     }
@@ -52,9 +49,6 @@ const SignIn = () => {
             Sign In
           </Button>
         </Form>
-        <div className="w-100 text-center mt-3">
-          {/* <Link to="/forgot-password">Forgot Password?</Link> */}
-        </div>
         <div className="w-100 text-center mt-3">
           Already have an Account?<Link to="/signup"> Sign Up</Link>
         </div>
