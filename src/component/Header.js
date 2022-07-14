@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import  logo from "../assets/image/Fresh-Mango-Logo-3.svg";
 const Header = () => {
   return (  
-    <Navbar collapseOnSelect expand="lg" bg="#ffffff" className='pt-3 pb-3'>
+    <Navbar collapseOnSelect expand="lg" bg="#ffffff" className='pt-3 pb-3 sticky-top'>
       <Container className="p-lg-0 ps-sm-2 pe-sm-2">
         <Navbar.Brand href="#home">
           <img src={logo} alt="logo" className="mango-logo"/>

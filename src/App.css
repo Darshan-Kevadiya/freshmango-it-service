@@ -39,13 +39,15 @@
 
 
 /* custom CSS */
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Roboto:wght@300&display=swap');
+
 
 /* .mango-logo{
   min-width: 289px;
   min-height: 57px;
 } */
-
+nav{
+  background-color: #ffffff !important;
+}
 .nav-link{
   font-family: 'Mulish', sans-serif;
 font-style: normal;
@@ -273,3 +275,323 @@ border-radius: 50%;
   display :flex
 }
     
+.section2{
+  background-color: #074ECE  ;
+  padding-bottom: 122px;
+}
+
+.section2-text{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 59px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+padding:  120px 0 120px 0;
+}
+
+.sec2card{
+  padding: 0 156px;
+}
+.sec2col-3{
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.card1-heading{
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+text-transform: capitalize;
+color: #000000;
+}
+
+.card-1-para{
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+color: #000000;
+text-align:start;
+padding-top: 30px !important;
+}
+
+.card-1-footer{
+font-family: 'Mulish';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+color: #000000;
+padding-top:284px;
+padding-right: 67px;
+text-align:start;
+}
+
+.card-1-footer a{
+  color: #323BCB  !important;
+  font-weight:700;
+  text-decoration: underline !important;
+}
+
+.sec-2-right-card{
+  padding-left: 36px;
+}
+
+.sec-2-cardcol{
+  width: 375px;
+height: 323px;
+
+}
+
+.card-bottom-margin{
+  margin-bottom: 36px;
+}
+
+.border-radius-10{
+  border-radius: 10px;
+}
+
+.card-img{
+  width: 60px !important;
+  height: 60px;
+  padding:0 !important;
+}
+
+.padding-card{
+  padding-top: 35px ;
+  padding-left: 44px;
+  padding-right: 30px;
+  /* justify-content: space-between; */
+  position: relative;
+}
+
+.card7::after{
+  content: "";  
+  position: absolute;
+  /* top: 0; */
+  right: 40px;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: #03443C;
+  padding: 0;
+}
+
+.card7-body{
+  padding-left: 44px;
+}
+.card7-body .title7{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  padding-top: 45px;
+  text-align: start;
+  color:#03443C
+}
+.card7-body .card-para{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  padding-right: 55px ;
+  padding-top: 16px ;
+  text-align: start;
+}
+
+.card8::after{
+  content: "";  
+  position: absolute;
+  /* top: 0; */
+  right: 40px;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: #CB6632;
+  padding: 0;
+}
+.card8-body{
+  padding-left: 44px;
+}
+.title8{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  padding-top: 45px;
+  text-align: start;
+  color: #CB6632;
+}
+.card8-body .card-para{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  padding-right: 55px ;
+  padding-top: 16px ;
+  text-align: start;
+}
+
+.card9::after{
+  content: "";  
+  position: absolute;
+  /* top: 0; */
+  right: 40px;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: #ADC949;;
+  padding: 0;
+}
+
+.card9-body{
+  padding-left: 44px;
+}
+.title9{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  padding-top: 45px;
+  text-align: start;
+  color: #ADC949;
+}
+.card9-body .card-para{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  padding-right: 55px ;
+  padding-top: 16px ;
+  text-align: start;
+}
+
+.card10::after{
+  content: "";  
+  position: absolute;
+  /* top: 0; */
+  right: 40px;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: #ADC949;
+  padding: 0;
+}
+
+.card10-body{
+  padding-left: 44px;
+}
+.title10{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  padding-top: 45px;
+  text-align: start;
+  color: #ADC949;
+}
+.card10-body .card-para{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  padding-right: 55px ;
+  padding-top: 16px ;
+  text-align: start;
+}
+
+.card11::after{
+  content: "";  
+  position: absolute;
+  /* top: 0; */
+  right: 40px;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: #03443C;
+  padding: 0;
+}
+.card11-body{
+  padding-left: 44px;
+}
+.title11{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  padding-top: 45px;
+  text-align: start;
+  color: #03443C;
+}
+.card11-body .card-para{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  padding-right: 55px ;
+  padding-top: 16px ;
+  text-align: start;
+}
+
+.card12::after{
+  content: "";  
+  position: absolute;
+  /* top: 0; */
+  right: 40px;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: #CB6632;
+  padding: 0;
+}
+.card12-body{
+  padding-left: 44px;
+}
+.title12{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  padding-top: 45px;
+  text-align: start;
+  color: #CB6632;
+}
+.card12-body .card-para{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  padding-right: 55px ;
+  padding-top: 16px ;
+  text-align: start;
+}
+
