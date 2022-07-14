@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from './Header'
+import Section1 from './Section1'
 
 const Dashboard = () => {
   return (
-    <div>
-      <h1>Dashboard</h1>
-    </div>
+    <>
+      <Header />
+      <Section1 />
+    </>
   )
 }
 

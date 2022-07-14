@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* custom CSS */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Roboto:wght@300&display=swap');
+
+/* .mango-logo{
+  min-width: 289px;
+  min-height: 57px;
+} */
+
+.nav-link{
+  font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+}
+
+.nav-active{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color:#CB6632 !important;
+position: relative;
+}
+
+
+
+
+@media only screen and (max-width:1366px) {
+  .mango-logo {
+    width: 200px;
+  }
+  .nav-link{
+    font-size: 14px;
+  }
+  }
+
+  @media only screen and (min-width:992px) {
+    .nav-active::after{
+  content:"";
+  position: absolute;
+  bottom: -10px;
+  left: 40px;
+  width: 10px;
+  height: 10px;
+border-radius: 50%;
+  background-color: #CB6632;
+}
+    }
+
+  .bg-image{
+    /* max-width: 100%; */
+    height: calc(100vh - 82px);
+  }
+
+  .bg-slider img{
+    width: 100%;
+    max-height: calc(100vh - 90px);
+  }
