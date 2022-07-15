@@ -793,3 +793,50 @@ margin-left: 20px;
   border-radius: 50%;
   position: relative;
 }
+
+/* section-4 */
+
+.sec4-head{
+  padding-top: 120px;
+  padding-bottom: 60px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 59px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card{
+  border: 2px solid black;
+  /* width:518px;
+  height:372px */
+}
+
+.blog-date{
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 28px;
+  padding-top: 20px;
+  text-align: start;
+  font-weight: 400px  ;
+  color: #000000;
+}
+.blog-title{
+  font-family: Mulish;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: start;
+  color: #000000;
+  font-weight: 700;
+  margin-bottom:160px
+}
+
+hr{
+  margin: 0 !important;
+  margin-top: 40px !important;
+}

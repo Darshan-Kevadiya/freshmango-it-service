@@ -24,8 +24,8 @@ const Section3 = () => {
       </div>
       <div>
         <div className='container sec-3one'>
+          {/* card 1 */}
           <div><img src={One} /></div>
-
           <div className='row g-0'>
             <div className='col-6 leftcol sec3card1-border '>
               <div className='imageoverlay'>
@@ -83,7 +83,6 @@ const Section3 = () => {
           </div>
           {/* card 2 */}
           <div><img src={Two} /></div>
-
           <div className='row g-0'>
             <div className='col-6 leftcol sec3card2-border '>
               <div className='sec-cardtitle text-end'>
@@ -162,7 +161,6 @@ const Section3 = () => {
           </div>
           {/* card 3 */}
           <div><img src={Three} /></div>
-
           <div className='row g-0'>
             <div className='col-6 leftcol sec3card3-border'>
               <div className='imageoverlay'>
