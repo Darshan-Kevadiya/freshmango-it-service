@@ -840,3 +840,36 @@ hr{
   margin: 0 !important;
   margin-top: 40px !important;
 }
+
+/* footer */
+.footer{
+  background: #EDEFED;
+
+}
+
+.footer-padding{
+  padding-top: 70px !important;
+}
+
+.footer-head{
+  font-family: Oswald , sans-serif;
+  font-style:normal;
+  font-weight:700;
+  font-size: 96px;
+  line-height: 98px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.footer-content-head{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #CB6632;
+}
+
+.pb-24{
+  padding-bottom: 24px;
+}

@@ -31,7 +31,7 @@ const SignUp = () => {
 
   return (
     <div>
-      <Card className='col-5 mx-auto card-center'>
+      <Card className='col-5 col-lg-4 pt-lg-5 pb-lg-5 mx-auto card-center'>
         <Card.Body>
           <h2 className="text-center mb-4">Sign Up</h2>
           {error && <Alert variant="danger">{error}</Alert>}

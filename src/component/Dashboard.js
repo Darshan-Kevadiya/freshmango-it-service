@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import Header from './Header'
 import Section1 from './Section1'
 import Section2 from './Section2'
@@ -13,6 +14,7 @@ const Dashboard = () => {
       <Section2 />
       <Section3 />
       <Section4/>
+      <Footer />
     </>
   )
 }
