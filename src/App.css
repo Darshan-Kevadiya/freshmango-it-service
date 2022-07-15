@@ -254,7 +254,7 @@ border-radius: 50%;
     .slider-slogan{
       background-color: #ffffff;
       opacity: 0.74;
-      padding: 43px 59px 57px 50px;
+      padding: 43px 0px 57px 50px;
       border-radius: 10px;
     }
  .slogan-text {
@@ -868,8 +868,41 @@ font-weight: 400;
 font-size: 18px;
 line-height: 26px;
 color: #CB6632;
+text-align: start;
+margin-left: 25px;
 }
 
 .pb-24{
   padding-bottom: 24px;
+}
+
+.footer-link{
+  font-family : Mulish;
+  font-size: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 24px;
+  text-align: start;
+  margin-left: 25px;
+}
+
+.footerlink2{
+  text-decoration: none;
+  opacity: 0.54;
+}
+
+.footergrey{
+  font-family : Mulish;
+  font-size: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #000000;
+  text-align: start;
+  text-decoration: none;
+  opacity: 0.54;
 }
