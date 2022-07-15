@@ -328,7 +328,7 @@ font-size: 18px;
 line-height: 31px;
 color: #000000;
 padding-top:284px;
-padding-right: 67px;
+padding-right: 60px;
 text-align:start;
 }
 
@@ -342,10 +342,13 @@ text-align:start;
   padding-left: 36px;
 }
 
+.paddright{
+  padding-right:18px ;
+}
+
 .sec-2-cardcol{
   width: 375px;
 height: 323px;
-
 }
 
 .card-bottom-margin{
@@ -595,3 +598,198 @@ height: 323px;
   text-align: start;
 }
 
+/* section-3 */
+.sec3-head{
+  width: 714px;
+/* height: 118px; */
+  padding-top: 120px;
+  padding-bottom: 60px;
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 59px;
+text-align: center;
+text-transform: uppercase;
+margin: 0 auto;
+}
+
+.sec3para{
+width: 758px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+margin: 0 auto;
+padding-bottom: 103px;
+}
+
+.imageone{
+margin-top: 60px;
+margin-bottom: 72px;
+}
+.imageoverlay{
+  position: relative !important;
+}
+
+.mangologo{
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 55px !important;
+  padding-top: 60px;
+  padding-bottom: 101px;
+    width: 135px;
+}
+.ellipse10{
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 40px !important;
+  padding-top: 60px;
+  padding-bottom: 101px;
+    width: 60px;
+}
+.ellipse25{
+  position: absolute !important;
+  bottom: 0 !important;
+  right: 13px !important;
+  padding-top: 60px;
+  padding-bottom: 101px;
+  width: 186px;
+}
+
+
+.mangologo2{
+  position: absolute !important;
+  bottom: 0px !important;
+  right: 36px !important;
+  padding-top: 60px;
+  padding-bottom: 101px;
+  width: 135px;
+}
+.ellipse11{
+  position: absolute !important;
+  bottom: 0 !important;
+  right: 120px !important;
+  padding-top: 60px;
+  padding-bottom: 101px;
+    width: 60px;
+}
+.ellipse26{
+  position: absolute !important;
+  bottom: 0px !important;
+  left: 12px !important;
+  padding-top: 60px;
+  padding-bottom: 101px;
+  width: 186px;
+}
+
+/* .imageoverlay::after{
+  content: url('../src/assets/image/Fresh-Mango-Logo-3-white\ 2.png');
+  position: absolute;
+  bottom: 0;
+  z-index:99;
+} */
+
+.textone{
+margin-top: 60px;
+margin-bottom: 72px;
+padding-left: 51px;
+/* border-right: 1px solid black; */
+}
+.leftcol{
+  padding-right: 51px !important;
+  border-right-width: 2px;
+}
+.sec3card1-border{
+  border-right-style: solid;
+  border-image: 
+    linear-gradient(
+      to top, 
+    rgba(0,0,0,0.8), 
+      rgba(0, 0, 0, 0)
+    ) 0 100%;
+}
+.rightcol{
+  padding-left: 51px !important;
+}
+
+.sec-cardtitle{
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+text-transform: capitalize;
+color: #000000;
+margin-top: 96px;
+text-align: start;
+}
+
+.sec-cardpara{
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: #000000;
+padding-top: 16px ;
+text-align: start;
+}
+
+.sec3card2-border{
+  border-right: 2px solid #000000 !important;  
+}
+.sec3card3-border{
+  border-right-style: solid;
+  border-image: 
+    linear-gradient(
+      to top, 
+    rgba(0,0,0,0), 
+      rgba(0, 0, 0, 0.8)
+    ) 0 100%;
+}
+
+.features{
+  padding-top: 20px !important;
+}
+.bluetick{
+  width: 22px;
+  height: 22px;
+  background-color: #074ECE  ;
+  border-radius: 50%;
+  position: relative;
+}
+.tick{
+  position: absolute;
+  position: absolute;
+  left: 5px;
+  top: 0px;
+  width: 22px;
+}
+.features-title{
+  font-family:  Mulish;
+font-style : SemiBold;
+font-size:  16px;
+font-weight: 600;
+line-height: 22px;
+text-align: start;
+margin-left: 20px;
+/* Line height: 115% */
+}
+
+.orangetick{
+  width: 22px;
+  height: 22px;
+  background-color: #CB6632  ;
+  border-radius: 50%;
+  position: relative;
+}
+.greentick{
+  width: 22px;
+  height: 22px;
+  background-color: #8BA922  ;
+  border-radius: 50%;
+  position: relative;
+}

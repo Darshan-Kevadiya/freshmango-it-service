@@ -24,7 +24,7 @@ const Section2 = () => {
           <div className='col-9 '>
             <div className='sec-2-right-card'>
               <div class="row">
-                <div class="col-4 sec-2-cardcol card-bottom-margin">
+                <div class="col-4 sec-2-cardcol card-bottom-margin paddright">
                   <div class="border bg-light h-100 
                   border-radius-10">
                     <div className='row  padding-card card7'>
@@ -36,7 +36,7 @@ const Section2 = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-4 sec-2-cardcol card-bottom-margin">
+                <div class="col-4 sec-2-cardcol card-bottom-margin paddright">
                   <div class="border bg-light h-100 border-radius-10">
                     <div className='row  padding-card card8'>
                       <img src={Group8} className="card-img" />
@@ -59,7 +59,7 @@ const Section2 = () => {
                   </div>
                 </div>
               {/* </div> */}
-              <div class="col-4 sec-2-cardcol">
+              <div class="col-4 sec-2-cardcol paddright">
                 <div class="border bg-light h-100 border-radius-10">
                   <div className='row  padding-card card10'>
                     <img src={Group10} className="card-img" />
@@ -71,7 +71,7 @@ const Section2 = () => {
                 </div>
               </div>
             {/* </div> */}
-            <div class="col-4 sec-2-cardcol">
+            <div class="col-4 sec-2-cardcol paddright">
               <div class="border bg-light h-100 border-radius-10">
                 <div className='row  padding-card card11'>
                   <img src={Group11} className="card-img" />
