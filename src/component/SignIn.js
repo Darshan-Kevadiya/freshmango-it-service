@@ -50,7 +50,7 @@ const SignIn = () => {
           </Button>
         </Form>
         <div className="w-100 text-center mt-3">
-          Already have an Account?<Link to="/signup"> Sign Up</Link>
+          Don't have an Account?<Link to="/signup"> Sign Up</Link>
         </div>
       </Card.Body>
     </Card>
